@@ -8,15 +8,15 @@ export default function App() {
   const counter = useSelector((state) => state.counter);
   const dispatch = useDispatch();
   const increment = () => {
-    console.log(actions)
+    console.log(actions);
     dispatch(actions.increment());
   };
   const decrement = () => {
-    console.log(actions)
+    console.log(actions);
     dispatch(actions.decrement());
   };
   const addBy10 = () => {
-    console.log(actions)
+    console.log(actions);
     dispatch(actions.add(10));
   };
 
